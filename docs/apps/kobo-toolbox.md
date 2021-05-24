@@ -21,6 +21,14 @@ Example user stories:
 
 ## Integration Options
 
+1. Webhook or “REST Service” that will forward data to OpenFn.
+Note: for Kobo, this will not forward any cleaned data. 
+
+
+2. Timer OpenFn jobs that run on cron schedule and “GET” data from Kobo API. 
+If you are cleaning data in Kobo, we recommend this option.
+
+
 ### Kobo Web API
 
 Kobo APIs support both data and metadata integration. Check out: 
@@ -74,6 +82,10 @@ ODK:
   "_attachments": []
 }
 ```
+
+## Integration Help
+
+
 
 ## OpenFn Adaptor
 
