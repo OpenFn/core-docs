@@ -85,7 +85,27 @@ ODK:
 
 ## Integration Help
 
+# Getting Started with Kobo  
 
+The project space
+![The Kobo project space](/img/kobo-project-space.png)
+
+Creating forms
+
+Submitting data
+
+Cleaning data
+
+Kobo form and submission IDs
+
+1. Kobo-generated identifiers
+"formId": "adiNTJXFtpKEDGGZFMUtgQ" → unique form instance
+"_id": 85252496 → form submission, unique across Kobo server
+"_uuid" → changes every time submission is cleaned; not recommended
+
+
+2. Custom Ids - build your own
+"GeneratedUuid":"..."
 
 ## OpenFn Adaptor
 
