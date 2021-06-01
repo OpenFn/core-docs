@@ -96,16 +96,17 @@ Submitting data
 
 Cleaning data
 
+Adding hidden values to forms: calculated fields
+
+Mapping repeat groups to a database
+
 Kobo form and submission IDs
 
-1. Kobo-generated identifiers
+Kobo-generated identifiers
 "formId": "adiNTJXFtpKEDGGZFMUtgQ" → unique form instance
-"_id": 85252496 → form submission, unique across Kobo server
-"_uuid" → changes every time submission is cleaned; not recommended
+"\_id": 85252496 → form submission, unique across Kobo server
+"\_uuid" → changes every time submission is cleaned; not recommended to use as unique ID
 
-
-2. Custom Ids - build your own
-"GeneratedUuid":"..."
 
 ## OpenFn Adaptor
 
