@@ -6,6 +6,12 @@ slug: /
 
 ## OpenFn Documentation
 
+```mdx-code-block
+import OverviewFlow from './components/overview';
+```
+
+<div style={{width: '100%', height: 400}}><OverviewFlow /></div>
+
 This documentation is for the suite of OpenFn data integration,
 interoperability, and automation tools. Note that some technical documentation
 and source code for OpenFn's FOSS integration tools and adaptors can also be
